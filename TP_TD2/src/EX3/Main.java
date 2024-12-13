@@ -14,7 +14,7 @@ public class Main {
 		str.append(sc.next().toCharArray()) ;
 		
 		for (int i =str.length()-1;i>=0;i--) {
-			System.out.print(str);
+			System.out.print(str.charAt(i));
 		}
 	}
 
